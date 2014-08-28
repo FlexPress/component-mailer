@@ -1,0 +1,12 @@
+{
+    "name": "flexpress/component-mailer",
+    "description": "Twig mailer system for WordPress",
+    "autoload": {
+        "psr-4": {
+            "FlexPress\\Components\\Mailer\\": "src/FlexPress/Components/Mailer/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "v5.2.8"
+    }
+}
